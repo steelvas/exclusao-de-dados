@@ -28,3 +28,6 @@ print(copias)
 
 **Conclusão:** um protocolo genérico diz “excluímos dados”. Um protocolo útil permite responder *quais dados, de quais sistemas, por quem, quando, com qual exceção legal e mediante qual prova*. O advogado precisa conhecer tanto o serviço vendido pela empresa-fim quanto a arquitetura operada pela empresa-meio para transformar essa resposta em obrigação executável — sem prometer que um registro de sistema, sozinho, prova a eliminação definitiva.
 
+## Teste reproduzível
+
+Execute `python exemplo.py`. O programa lista as cópias ainda marcadas como existentes após a mudança na interface. É uma simulação: comprovar exclusão real exige verificar sistemas, backups e fornecedores.
